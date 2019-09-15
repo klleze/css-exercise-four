@@ -5,10 +5,9 @@
 body {
   background-color: #D8D1C9;
   font-size: 12px;
-  font-color:
 }
 
-div.preview {
+div {
   margin: 0 30% 0 30%;
   background-color: #D1771D;
   text-align: center;
@@ -29,4 +28,12 @@ h1 {
 section.container {
   text-align: center;
   font-size: 16px;
+}
+
+/*media query for 2-column design*/
+@media screen and (min-width: 800px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
 }
