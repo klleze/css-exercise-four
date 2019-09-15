@@ -1,4 +1,32 @@
+*, *:before, *:after {
+  box-sizing:border-box;
+}
+
 body {
-  background-color: #dadada;
-  font-size: 10px;
+  background-color: #D8D1C9;
+  font-size: 12px;
+  font-color:
+}
+
+div.preview {
+  margin: 0 30% 0 30%;
+  background-color: #D1771D;
+  text-align: center;
+  border: solid;
+  border-color: #C06D1A;
+  border-width: .5px;
+  font-size: 12px;
+  }
+
+.preview:hover {
+  background-color: #ED8216;
+}
+
+h1 {
+  color: #24246E;
+}
+
+section.container {
+  text-align: center;
+  font-size: 16px;
 }
