@@ -35,5 +35,14 @@ section.container {
    div {
     margin: 1%;
     width: 48%;
+    float:left;
   }
+}
+
+/*media query for 4-column design*/
+@media screen and (min-width: 1100px){
+  .preview {
+  float: left;
+  width: 20%;
+  margin-left: 3%;
 }
